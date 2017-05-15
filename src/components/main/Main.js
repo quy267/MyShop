@@ -11,8 +11,6 @@ import Drawer from 'react-native-drawer';
 
 class Main extends Component {
 
-
-
     closeControlPanel = () => {
         this.drawer.close()
     };
