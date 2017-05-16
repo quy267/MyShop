@@ -19,6 +19,10 @@ class Main extends Component {
         this.drawer.open()
     };
 
+    componentDidMount(){
+        this.drawer.open();
+    }
+
     render() {
         const navigator = this.props.navigator;
         return (
